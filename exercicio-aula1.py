@@ -1,7 +1,7 @@
 alturas = []
 generos = []
 
-for i in range(5):
+for i in range(15):
 
     print("\nPessoas", )
 
@@ -14,7 +14,7 @@ menor_altura = min(alturas)
 soma = 0
 contador = 0
 
-for i in range(5):
+for i in range(15):
 
     if generos[i] == "M":
         soma += alturas[i]
